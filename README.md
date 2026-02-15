@@ -10,9 +10,11 @@ To reduce operational overhead and API dependency for `upscway.com` while mainta
 
 ## 🛠️ Technical Implementation
 
-### 1. The Golden Dataset
+### 1. The Silver Dataset
 We utilized a curated **Golden Dataset of 400+ verified compliance and exam queries** to establish the baseline. The teacher model initially mapped these to GS Paper categories with varying accuracy (e.g., GS2/GS3 showing the highest sample density).
 
+### 1b. Result of pre training
+ 
 ### 2. Distillation via KL-Divergence
 Instead of standard fine-tuning on hard labels, we minimized the **Kullback-Leibler (KL) Divergence** between the teacher and student's probability distributions (logits).
 
