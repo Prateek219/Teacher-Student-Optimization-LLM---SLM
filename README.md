@@ -14,6 +14,10 @@ To reduce operational overhead and API dependency for `upscway.com` while mainta
 We utilized a curated **Golden Dataset of 400+ verified compliance and exam queries** to establish the baseline. The teacher model initially mapped these to GS Paper categories with varying accuracy (e.g., GS2/GS3 showing the highest sample density).
 
 ### 1b. Result of pre training
+<img width="505" height="346" alt="Screenshot 2026-02-16 at 12 33 08 AM" src="https://github.com/user-attachments/assets/3ae7a143-c390-4044-8205-efa575d93e01" />
+<img width="505" height="346" alt="Screenshot 2026-02-16 at 12 33 08 AM" src="https://github.com/user-attachments/assets/3ae7a143-c390-4044-8205-efa575d93e01" />
+
+
  
 ### 2. Distillation via KL-Divergence
 Instead of standard fine-tuning on hard labels, we minimized the **Kullback-Leibler (KL) Divergence** between the teacher and student's probability distributions (logits).
