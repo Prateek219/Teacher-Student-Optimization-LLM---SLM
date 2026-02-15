@@ -8,7 +8,7 @@ This repository contains the pipeline for distilling high-reasoning capabilities
 ## 🎯 Project Objective
 To reduce operational overhead and API dependency for `upscway.com` while maintaining high-fidelity classification of newspaper content into General Studies (GS) Paper categories.
 
-## 🛠️ Technical Implementation
+## 🛠️ Technical Implementation 
 
 ### 1. The Silver Dataset
 We utilized a curated **Golden Dataset of 400+ verified compliance and exam queries** to establish the baseline. The teacher model initially mapped these to GS Paper categories with varying accuracy (e.g., GS2/GS3 showing the highest sample density).
