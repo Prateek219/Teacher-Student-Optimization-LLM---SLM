@@ -29,7 +29,7 @@ Instead of standard fine-tuning on hard labels, we minimized the **Kullback-Leib
 - **Latency Optimization:** Improved response times for users by over 20x, enabling real-time relevance tagging during news ingestion.
 
 ## 📈 Performance Summary
-The student model retained **97.4%** of the teacher's accuracy in identifying UPSC-relevant data chunks while operating at a fraction of the computational footprint.
+The student model retained **83.4%** of the teacher's accuracy in identifying UPSC-relevant data chunks while operating at a fraction of the computational footprint.
 
 ## 🚀 Future Roadmap
 - Implementation of **Quantization-Aware Training (QAT)** for 4-bit edge deployment.
