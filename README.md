@@ -15,7 +15,6 @@ We utilized a curated **Golden Dataset of 400+ verified compliance and exam quer
 
 ### 1b. Result of pre training
 <img width="505" height="346" alt="Screenshot 2026-02-16 at 12 33 08 AM" src="https://github.com/user-attachments/assets/3ae7a143-c390-4044-8205-efa575d93e01" />
-<img width="505" height="346" alt="Screenshot 2026-02-16 at 12 33 08 AM" src="https://github.com/user-attachments/assets/3ae7a143-c390-4044-8205-efa575d93e01" />
 
 
  
